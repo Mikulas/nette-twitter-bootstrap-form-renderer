@@ -2,9 +2,12 @@
 	"name": "mikulas/nette-twitter-bootstrap-form-renderer",
 	"description": "Twitter Boostrap form renderer for Nette",
 	"authors": [{"name": "Mikulas Dite"}],
-	"license": ["BSD-3"],
+	"license": ["BSD-3-Github"],
 	"require": {
 		"php": ">=5.4",
 		"nette/nette": ">=2.0"
+	},
+	"autoload": {
+		"file": ["TwitterBootstrapFormRenderer.php"]
 	}
 }
